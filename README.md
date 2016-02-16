@@ -5,6 +5,7 @@ This module find the price from url given
 [![Coverage Status](https://coveralls.io/repos/github/Mirio/steamstoreprice/badge.svg?branch=0.1)](https://coveralls.io/github/Mirio/steamstoreprice?branch=0.1)
 
 
+
 ## Link
 Documentation: http://steamstoreprice.readthedocs.org/
 
