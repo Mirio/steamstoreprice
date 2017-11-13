@@ -4,7 +4,7 @@ setup(
     name='steamstoreprice',
     packages=['steamstoreprice'],
     package_dir={'steamstoreprice': 'steamstoreprice'},
-    version='0.1',
+    version='0.2',
     install_requires=['requests', 'beautifulsoup4'],
     description='Find the price on Steam Store from url',
     author='Alessandro Sbarbati',

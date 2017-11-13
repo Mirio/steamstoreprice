@@ -59,4 +59,7 @@ class SteamStorePrice:
         :return: float(price cleaned)
         """
         body_content = self.getpage(self.normalizeurl(url))
-        return self.normalizeprice(body_content.find("div", {"class": "game_purchase_price"}).contents[0])
+        try:
+            return self.normalizeprice(body_content.find("div", {"class": "game_purchase_price"}).contents[0])
+        except AttributeError:
+            return self.normalizeprice(body_content.find("div", {"class": "discount_final_price"}).contents[0])
